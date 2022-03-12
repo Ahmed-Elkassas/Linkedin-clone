@@ -4,6 +4,7 @@ import LoginPage from "./Pages/Login/LoginPage";
 // styles
 
 import "./App.css";
+import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           path="/home"
           element={
             <>
+              <Header />
               <Home />
             </>
           }
